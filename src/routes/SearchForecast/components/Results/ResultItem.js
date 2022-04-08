@@ -54,7 +54,6 @@ const styles = {
     details: {
         display: `flex`,
         flexDirection: `column`,
-
     }
 }
 
@@ -102,9 +101,6 @@ const ResultItem = ({ key, weather }) => {
                 </div>
             </div>
 
-
-
-
             <div style={styles.details}>
                 <div>
                     <span style={styles.label}>wind</span>
@@ -123,8 +119,6 @@ const ResultItem = ({ key, weather }) => {
             <div>
 
             </div>
-
-
         </div>
     )
 }

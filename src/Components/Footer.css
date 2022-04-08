@@ -7,7 +7,9 @@
     color: #fff;
     background-color: #23468b;
     width: 100%;
-    /*position: relative;*/
+    height: 8vh;
+    position: absolute;
+    bottom: 0;
 }
 
 ul {
